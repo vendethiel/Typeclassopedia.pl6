@@ -39,7 +39,7 @@ role Arrow[::T] does Category[T] {
 role ArrowZero[::T] does Arrow[T] {
 }
 
-does ArrowPlus[::T] does Monoid[T] does ArrowZero[T] {
+role ArrowPlus[::T] does Monoid[T] does ArrowZero[T] {
 }
 
 # level 4
